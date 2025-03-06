@@ -12,7 +12,7 @@
     --color-form-border-red: #df6da2;
     --color-button-hover-red: #f043a5;
     --color-course-hover-yellow: #f4e877;
-    --color-hero-overlay: rgba(0, 0, 0, 0.5); /* 背景画像を暗くする */
+    --color-hero-overlay: rgba(57, 24, 111, 0.4); /* 背景画像を暗くする */
     --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
 body {
