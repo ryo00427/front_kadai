@@ -12,7 +12,7 @@
     --color-form-border-red: #df6da2;
     --color-button-hover-red: #f043a5;
     --color-course-hover-yellow: #f4e877;
-    --color-hero-overlay: rgba(57, 24, 111, 0.4); /* 背景画像を暗くする */
+    --color-hero-overlay: rgba(0, 0, 0, 0.5); /* 背景画像を暗くする */
     --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
 body {
@@ -70,11 +70,11 @@ body {
     font-family: var(--font-family-heading);
     margin: 0;
     color: var(--color-accent-yellow);
+
     font-size: 64px;
     line-height: 64px;
     letter-spacing: 0.05em;
 }
-
 .hero-sub-copy {
     font-family: var(--font-family-body);
     color: var(--color-accent-yellow);
@@ -252,6 +252,7 @@ img {
     height: 100%;
 }
 
+
 @media (max-width: 750px) {
     .header {
        height: 60px;
@@ -293,6 +294,7 @@ img {
         display: none;
     }
 }
+
 @media (max-width: 750px) {
     .course-block {
         width: 100%;
@@ -333,3 +335,4 @@ img {
         height: 30px;
     }
 }
+
