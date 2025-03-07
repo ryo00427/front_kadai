@@ -292,6 +292,18 @@ img {
 .application-big-button {
     box-shadow: 4px 4px 0 var(--color-black);
 }
+.footer {
+    background: var(--color-background-black);
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-copyright {
+    font-size: 16px;
+    color: var(--color-white);
+    font-family: var(--font-family-noto-sans-jp);
+}
 
 @media (max-width: 750px) {
     .header {
@@ -390,5 +402,15 @@ img {
 @media (max-width: 750px) {
     .application-input-container > label {
         font-size: 16px;
+    }
+}
+@media (max-width: 750px) {
+    .footer {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 750px) {
+    .footer-copyright {
+        font-size: 12px;
     }
 }
